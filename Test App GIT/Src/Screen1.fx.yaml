@@ -19,7 +19,9 @@ Screen1 As screen:
         Color: =RGBA(255, 0, 0, 1)
         Height: =81
         Icon: =Icon.CancelBadge
-        OnSelect: =OnSelect Farouk
+        OnSelect: |-
+            =OnSelect Farouk
+            //micpat update
         Width: =90
         X: =374
         Y: =277
