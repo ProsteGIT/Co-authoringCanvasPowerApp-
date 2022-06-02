@@ -26,6 +26,9 @@ Screen1 As screen:
         Color: =RGBA(255, 0, 0, 1)
         Height: =81
         Icon: =Icon.CancelBadge
+        OnSelect: |-
+            =false
+            //test komentu pro farouka
         Width: =90
         X: =374
         Y: =277
