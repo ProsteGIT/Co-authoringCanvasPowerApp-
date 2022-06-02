@@ -3,7 +3,7 @@ Screen1 As screen:
     Label1 As label:
         Height: =294
         Size: =20
-        Text: ="Hello little world"
+        Text: ="Hello Big world"
         Width: =878
         X: =147
         Y: =162
