@@ -22,6 +22,7 @@ Screen1 As screen:
         OnSelect: |-
             =OnSelect Farouk
             //micpat update
+            //ONSelect 2
         Width: =90
         X: =374
         Y: =277
