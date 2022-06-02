@@ -9,3 +9,9 @@ Screen1 As screen:
         Y: =162
         ZIndex: =1
 
+    Label2 As label:
+        Text: ="Nextlabel"
+        X: =288
+        Y: =432
+        ZIndex: =2
+
