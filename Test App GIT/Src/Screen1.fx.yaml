@@ -46,3 +46,12 @@ Screen1 As screen:
         Y: =249
         ZIndex: =4
 
+    Button2 As button:
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =48
+        Text: ="Tlačítko"
+        Width: =171
+        X: =865
+        Y: =416
+        ZIndex: =5
+
