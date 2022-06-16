@@ -54,7 +54,7 @@ Screen1 As screen:
 
     Button3 As button:
         Fill: =RGBA(152, 208, 70, 1)
-        Text: ="Tlačítko"
+        Text: ="New Button"
         X: =838
         Y: =508
         ZIndex: =6
