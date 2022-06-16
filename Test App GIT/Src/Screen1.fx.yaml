@@ -48,14 +48,14 @@ Screen1 As screen:
 
     Button2 As button:
         Text: ="Button"
-        X: =998
-        Y: =619
+        X: =1089
+        Y: =537
         ZIndex: =5
 
     Button3 As button:
-        Fill: =RGBA(255, 0, 0, 1)
+        Fill: =RGBA(152, 208, 70, 1)
         Text: ="New Button"
-        X: =998
-        Y: =462
+        X: =838
+        Y: =508
         ZIndex: =6
 
