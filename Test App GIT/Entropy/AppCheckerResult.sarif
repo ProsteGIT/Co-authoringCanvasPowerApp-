@@ -296,17 +296,17 @@
               "id": "app-UnusedMediaResources",
               "messageStrings": {
                 "issue": {
-                  "text": "Unused media files"
+                  "text": "Nepoužívané soubory médií"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove the unused media file in the Media pane."
+                  "Odeberte nepoužívaný mediální soubor v podokně Média."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
+                "whyFix": "Na tento soubor médií neodkazují žádné kontrolní vzorce, takže není potřeba. Jeho odebrání zlepší výkon."
               }
             }
           ],
