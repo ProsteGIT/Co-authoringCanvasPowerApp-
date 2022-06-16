@@ -187,6 +187,36 @@
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.KM_theme_progresion"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.KM_theme_progresion",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "KM_theme_progresion",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -260,6 +290,23 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+              }
+            },
+            {
+              "id": "app-UnusedMediaResources",
+              "messageStrings": {
+                "issue": {
+                  "text": "Nepoužívané soubory médií"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Odeberte nepoužívaný mediální soubor v podokně Média."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Na tento soubor médií neodkazují žádné kontrolní vzorce, takže není potřeba. Jeho odebrání zlepší výkon."
               }
             }
           ],
